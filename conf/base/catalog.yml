@@ -43,7 +43,7 @@
 # template. Please feel free to remove it once you remove the example pipeline.
 
 example_iris_data:
-  type: pandas.CSVDataSet
+  type: kedro_datasets.pandas.CSVDataSet
   filepath: data/01_raw/iris.csv
   metadata:
     pandera:
